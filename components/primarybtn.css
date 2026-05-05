@@ -1,0 +1,12 @@
+.primarybtn{
+    padding: 12px;
+    background: rgb(83, 4, 4);
+    border-radius: 1.4rem;
+    border-width: 1px;
+    transition: all 0.3s;
+    color: white;
+}
+
+.primarybtn:hover {
+    scale: calc(1.06);
+}

@@ -5,25 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Oumou</title>
 
-    <!-- PAGE STYLE: This is a page style for this specific page -->
+    <!-- PAGE SPECIFIC STYLES: only home page have this style -->
      <link rel="stylesheet" href="style.css">
+
+     <!-- COMPONENTS FILES: This is a style that all pages will use -->
+      <link rel="stylesheet" href="components/navbar.css">
+      <link rel="stylesheet" href="components/primarybtn.css">
+      <link rel="stylesheet" href="components/projectcard.css">
 </head>
 <body>
     
-    <!-- NAV BAR COMPONENT HTML -->
-    <nav class="navbar">
-        <a href="index.html">Om</a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/project.html">Project</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
-            <li><a href="pages/experience.html">Experience</a></li>
-        </ul>
-    </nav>
+<!-- NAVBAR: It is a components, so all pages need this. -->
+ <nav class="navbar">
+    <a href="index.html" class="logo">OuM</a> 
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/project.html">Project</a></li>
+        <li><a href="pages/experience.html">Experience</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+    </ul>   
+ </nav>
 
-    <main class="hero">
-        <div class="avatar">🧑‍💻</div>
-        <h1>THIS IS HOME PAGE TOO - I do code and make content about it.</h1>
-    </main>
+  <main>
+    <h1>THIS IS HOME PAGE</h1>
+ 
+
+    <button class="primarybtn">
+        Home Button 
+    </button>
+
+    <div class="card">
+        card
+    </div>
+</main>
+
 </body>
 </html>
